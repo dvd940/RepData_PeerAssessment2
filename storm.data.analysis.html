@@ -347,7 +347,7 @@ plot</code></pre>
 <pre class="r"><code>x &lt;- filter(storm.data.dmg, grepl(&quot;\\+|\\-|\\?&quot;, PROPDMGEXP))
 dim(x)</code></pre>
 <pre><code>## [1] 0 5</code></pre>
-<p>The quantity of these ambiguous characters is negligible and hence they as well as blanks are set to 0 for the purposes of this report.</p>
+<p>However, in the filtered set the quantity of these ambiguous characters is zero and hence they as well as blanks are set to 0 for the purposes of this report.</p>
 <pre class="r"><code>damage.exp &lt;- c(&quot;K&quot;=10^3, &quot;M&quot;=10^6, &quot;B&quot;=10^9, &quot;m&quot;=10^6, &quot;+&quot;=0, &quot; &quot;=0,
                    &quot;0&quot;=0, &quot;5&quot;=10^5, &quot;6&quot;=10^6, &quot;?&quot;=0, &quot;4&quot;=10^4, &quot;2&quot;=10^2, 
                    &quot;3&quot;=10^3, &quot;h&quot;=10^2, &quot;7&quot;=10^7, &quot;H&quot;=10^2, &quot;-&quot;=0, &quot;1&quot;=10, &quot;8&quot;=10^8)
@@ -421,13 +421,13 @@ plot</code></pre>
 ## [4] dplyr_0.4.1       
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] assertthat_0.1   codetools_0.2-9  colorspace_1.2-6 DBI_0.3.1       
-##  [5] digest_0.6.8     evaluate_0.6     formatR_1.1      grid_3.1.2      
-##  [9] gtable_0.1.2     htmltools_0.2.6  knitr_1.9        labeling_0.3    
-## [13] lazyeval_0.1.10  magrittr_1.5     MASS_7.3-35      munsell_0.4.2   
-## [17] parallel_3.1.2   plyr_1.8.1       proto_0.3-10     Rcpp_0.11.5     
-## [21] reshape2_1.4.1   rmarkdown_0.3.11 scales_0.2.4     stringr_0.6.2   
-## [25] tools_3.1.2      yaml_2.1.13</code></pre>
+##  [1] assertthat_0.1   colorspace_1.2-6 DBI_0.3.1        digest_0.6.8    
+##  [5] evaluate_0.6     formatR_1.1      grid_3.1.2       gtable_0.1.2    
+##  [9] htmltools_0.2.6  knitr_1.9        labeling_0.3     lazyeval_0.1.10 
+## [13] magrittr_1.5     MASS_7.3-35      munsell_0.4.2    parallel_3.1.2  
+## [17] plyr_1.8.1       proto_0.3-10     Rcpp_0.11.5      reshape2_1.4.1  
+## [21] rmarkdown_0.3.11 scales_0.2.4     stringr_0.6.2    tools_3.1.2     
+## [25] yaml_2.1.13</code></pre>
 </div>
 
 

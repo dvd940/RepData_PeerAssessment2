@@ -437,7 +437,7 @@ dim(x)
 ## [1] 0 5
 ```
 
-The quantity of these ambiguous characters is negligible and hence they as well as blanks are set to 0 for the purposes of this report. 
+However, in the filtered set the quantity of these ambiguous characters is zero and hence they as well as blanks are set to 0 for the purposes of this report. 
 
 
 ```r
@@ -540,11 +540,11 @@ sessionInfo()
 ## [4] dplyr_0.4.1       
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] assertthat_0.1   codetools_0.2-9  colorspace_1.2-6 DBI_0.3.1       
-##  [5] digest_0.6.8     evaluate_0.6     formatR_1.1      grid_3.1.2      
-##  [9] gtable_0.1.2     htmltools_0.2.6  knitr_1.9        labeling_0.3    
-## [13] lazyeval_0.1.10  magrittr_1.5     MASS_7.3-35      munsell_0.4.2   
-## [17] parallel_3.1.2   plyr_1.8.1       proto_0.3-10     Rcpp_0.11.5     
-## [21] reshape2_1.4.1   rmarkdown_0.3.11 scales_0.2.4     stringr_0.6.2   
-## [25] tools_3.1.2      yaml_2.1.13
+##  [1] assertthat_0.1   colorspace_1.2-6 DBI_0.3.1        digest_0.6.8    
+##  [5] evaluate_0.6     formatR_1.1      grid_3.1.2       gtable_0.1.2    
+##  [9] htmltools_0.2.6  knitr_1.9        labeling_0.3     lazyeval_0.1.10 
+## [13] magrittr_1.5     MASS_7.3-35      munsell_0.4.2    parallel_3.1.2  
+## [17] plyr_1.8.1       proto_0.3-10     Rcpp_0.11.5      reshape2_1.4.1  
+## [21] rmarkdown_0.3.11 scales_0.2.4     stringr_0.6.2    tools_3.1.2     
+## [25] yaml_2.1.13
 ```

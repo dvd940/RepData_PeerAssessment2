@@ -245,7 +245,7 @@ x <- filter(storm.data.dmg, grepl("\\+|\\-|\\?", PROPDMGEXP))
 dim(x)
 ```
 
-The quantity of these ambiguous characters is negligible and hence they as well as blanks are set to 0 for the purposes of this report. 
+However, in the filtered set the quantity of these ambiguous characters is zero and hence they as well as blanks are set to 0 for the purposes of this report. 
 
 ```{r}
 damage.exp <- c("K"=10^3, "M"=10^6, "B"=10^9, "m"=10^6, "+"=0, " "=0,
